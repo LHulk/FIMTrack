@@ -8,7 +8,8 @@ HEADERS += \
     Control/InputGenerator.hpp \
     Control/Calc.hpp \
     Control/Backgroundsubtractor.hpp \
-    Control/LarvaeContainer.hpp
+    Control/LarvaeContainer.hpp \
+    Control/AdaptiveGaussianMixtureModel.h
 
 SOURCES += \
     Control/Undistorter.cpp \
@@ -20,4 +21,5 @@ SOURCES += \
     Control/InputGenerator.cpp \
     Control/Calc.cpp \
     Control/Backgroundsubtractor.cpp \
-    Control/LarvaeContainer.cpp
+    Control/LarvaeContainer.cpp \
+    Control/AdaptiveGaussianMixtureModel.cpp
