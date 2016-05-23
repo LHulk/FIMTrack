@@ -43,9 +43,11 @@ unix {
 
     QMAKE_CXXFLAGS += -std=c++11 -Wall -pedantic -Wno-unknown-pragmas
 
-    INCLUDEPATH += /usr/include
+    INCLUDEPATH +=  /usr/include \
+                    /opt/opencv/opencv-2.4/debug/installed/include
 
-    LIBS += -lopencv_core \
+    LIBS += -L/opt/opencv/opencv-2.4/debug/installed/lib \
+            -lopencv_core \
             -lopencv_highgui \
             -lopencv_imgproc
 
